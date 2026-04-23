@@ -20,6 +20,7 @@ import UserRequest from './pages/UserManagement/UserRequest';
 import CreateCBCUser from './pages/CBC/CreateCBCUser';
 import WalletAdjustment from './pages/WalletAdjustment/WalletAdjustment';
 import AuditTrail from './pages/AuditTrail/AuditTrail';
+import UserListReport from './pages/UserManagement/UserListReport';
 
 /**
  * Main App Component
@@ -52,6 +53,7 @@ const RootApp = function() {
               <Route path="account-lookup" element={<ComingSoon />} />
               <Route path="create-cbc-user" element={<CreateCBCUser />} />
               <Route path="user-request" element={<UserRequest />} />
+              <Route path="user-list-report" element={<UserListReport />} />
               <Route path="audit-trail" element={<AuditTrail />} />
               <Route path="wallet-adjustment" element={<WalletAdjustment />} />
               <Route path="profile" element={<Profile />} />

@@ -6,10 +6,10 @@ export const THEME_COLORS = {
 };
 
 export const NAVIGATION_DATA = [
-  { 
-    title: 'Dashboard', 
-    route: '/dashboard', 
-    glyph: 'fas fa-th-large' 
+  {
+    title: 'Dashboard',
+    route: '/dashboard',
+    glyph: 'fas fa-th-large'
   },
   {
     title: 'User Management',
@@ -17,17 +17,18 @@ export const NAVIGATION_DATA = [
     subItems: [
       { title: 'Create CBC User', route: '/create-cbc-user', glyph: 'fas fa-user-plus', requiresOpsMaker: true },
       { title: 'User Request', route: '/user-request', glyph: 'fas fa-file-invoice' },
+      { title: 'User List report', route: '/user-list-report', glyph: 'fas fa-clipboard-list', requiresOpsChecker: true },
     ],
   },
-  { 
-    title: 'Audit Trail', 
-    route: '/audit-trail', 
-    glyph: 'fas fa-history' 
+  {
+    title: 'Audit Trail',
+    route: '/audit-trail',
+    glyph: 'fas fa-history'
   },
-  { 
-    title: 'Wallet Adjustment', 
-    route: '/wallet-adjustment', 
-    glyph: 'fas fa-wallet' 
+  {
+    title: 'Wallet Adjustment',
+    route: '/wallet-adjustment',
+    glyph: 'fas fa-wallet'
   },
 ];
 

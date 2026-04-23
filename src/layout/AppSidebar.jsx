@@ -7,7 +7,13 @@ import appLogo from '../assets/nsdlheading.png'
  * The side menu component that lets users navigate between pages.
  */
 export default function AppSidebar({ isMinimized, handleToggleVisibility }) {
-  const { hasOpsMakerPrivilege, expandedSections, toggleSection, isChildPathActive } = useSidebarLogic(NAVIGATION_DATA);
+  const { 
+    hasOpsMakerPrivilege, 
+    hasOpsCheckerPrivilege, 
+    expandedSections, 
+    toggleSection, 
+    isChildPathActive 
+  } = useSidebarLogic(NAVIGATION_DATA);
 
   // Hide certain menu items if the user doesn't have permission to see them
   const refinedNavigation = NAVIGATION_DATA.map(function(item) {
@@ -15,7 +21,9 @@ export default function AppSidebar({ isMinimized, handleToggleVisibility }) {
       return {
         ...item,
         subItems: item.subItems.filter(function(sub) {
-          return sub.requiresOpsMaker ? hasOpsMakerPrivilege : true;
+          if (sub.requiresOpsMaker && !hasOpsMakerPrivilege) return false;
+          if (sub.requiresOpsChecker && !hasOpsCheckerPrivilege) return false;
+          return true;
         })
       };
     }

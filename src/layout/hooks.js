@@ -45,9 +45,11 @@ export function useSidebarLogic(navigationData) {
   
   pureRole = pureRole.toUpperCase().replace(/^ROLE_/, '');
   const hasOpsMakerPrivilege = (pureRole === 'OPS_MAKER');
+  const hasOpsCheckerPrivilege = (pureRole === 'OPS_CHECKER');
 
   return {
     hasOpsMakerPrivilege,
+    hasOpsCheckerPrivilege,
     expandedSections,
     toggleSection,
     isChildPathActive,
