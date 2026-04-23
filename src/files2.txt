@@ -1,0 +1,52 @@
+﻿
+FullName                                                                                    
+--------                                                                                    
+D:\Desktop\React Training\batch4finalproject\src\App.css                                    
+D:\Desktop\React Training\batch4finalproject\src\App.jsx                                    
+D:\Desktop\React Training\batch4finalproject\src\files.txt                                  
+D:\Desktop\React Training\batch4finalproject\src\files2.txt                                 
+D:\Desktop\React Training\batch4finalproject\src\index.css                                  
+D:\Desktop\React Training\batch4finalproject\src\main.jsx                                   
+D:\Desktop\React Training\batch4finalproject\src\api\auth.js                                
+D:\Desktop\React Training\batch4finalproject\src\api\axios.js                               
+D:\Desktop\React Training\batch4finalproject\src\api\axiosSdk.js                            
+D:\Desktop\React Training\batch4finalproject\src\api\userOnboarding.js                      
+D:\Desktop\React Training\batch4finalproject\src\assets\details (2).png                     
+D:\Desktop\React Training\batch4finalproject\src\assets\hero.png                            
+D:\Desktop\React Training\batch4finalproject\src\assets\loginimage.png                      
+D:\Desktop\React Training\batch4finalproject\src\assets\nsdlheading.png                     
+D:\Desktop\React Training\batch4finalproject\src\assets\react.svg                           
+D:\Desktop\React Training\batch4finalproject\src\assets\vite.svg                            
+D:\Desktop\React Training\batch4finalproject\src\components\common\ChangePasswordModal.jsx  
+D:\Desktop\React Training\batch4finalproject\src\components\common\FormField.jsx            
+D:\Desktop\React Training\batch4finalproject\src\components\common\PageHeader.jsx           
+D:\Desktop\React Training\batch4finalproject\src\components\common\Spinner.jsx              
+D:\Desktop\React Training\batch4finalproject\src\components\common\StatusBadge.jsx          
+D:\Desktop\React Training\batch4finalproject\src\components\Layout\Header.jsx               
+D:\Desktop\React Training\batch4finalproject\src\components\Layout\Layout.jsx               
+D:\Desktop\React Training\batch4finalproject\src\components\Layout\Sidebar.jsx              
+D:\Desktop\React Training\batch4finalproject\src\context\AuthContext.jsx                    
+D:\Desktop\React Training\batch4finalproject\src\context\ModalContext.jsx                   
+D:\Desktop\React Training\batch4finalproject\src\pages\Agent\OnboardAgent.jsx               
+D:\Desktop\React Training\batch4finalproject\src\pages\AuditTrail\AuditTrail.jsx            
+D:\Desktop\React Training\batch4finalproject\src\pages\CBC\CreateCBCUser.jsx                
+D:\Desktop\React Training\batch4finalproject\src\pages\CBC\OnboardCBC.jsx                   
+D:\Desktop\React Training\batch4finalproject\src\pages\CBCMaker\OnboardCBCMaker.jsx         
+D:\Desktop\React Training\batch4finalproject\src\pages\ChangePassword\ChangePassword.jsx    
+D:\Desktop\React Training\batch4finalproject\src\pages\ComingSoon\ComingSoon.jsx            
+D:\Desktop\React Training\batch4finalproject\src\pages\Dashboard\Dashboard.jsx              
+D:\Desktop\React Training\batch4finalproject\src\pages\Login\Login.jsx                      
+D:\Desktop\React Training\batch4finalproject\src\pages\Profile\Profile.jsx                  
+D:\Desktop\React Training\batch4finalproject\src\pages\UserManagement\AccountLookup.jsx     
+D:\Desktop\React Training\batch4finalproject\src\pages\UserManagement\UserDetail.jsx        
+D:\Desktop\React Training\batch4finalproject\src\pages\UserManagement\UserList.jsx          
+D:\Desktop\React Training\batch4finalproject\src\pages\UserManagement\UserRequest.jsx       
+D:\Desktop\React Training\batch4finalproject\src\pages\WalletAdjustment\WalletAdjustment.jsx
+D:\Desktop\React Training\batch4finalproject\src\router\PrivateRoute.jsx                    
+D:\Desktop\React Training\batch4finalproject\src\utils\constants.js                         
+D:\Desktop\React Training\batch4finalproject\src\utils\encryption.js                        
+D:\Desktop\React Training\batch4finalproject\src\utils\helpers.js                           
+D:\Desktop\React Training\batch4finalproject\src\utils\loader.js                            
+D:\Desktop\React Training\batch4finalproject\src\utils\toast.jsx                            
+
+
