@@ -1,4 +1,3 @@
-import ChangePasswordModal from '../components/common/ChangePasswordModal'
 import userAvatarFallback from '../assets/loginimage.png'
 import { UI_STRINGS, THEME_COLORS } from './constants'
 import { useHeaderLogic } from './hooks'
@@ -65,7 +64,7 @@ export default function AppHeader({ isSidebarCollapsed }) {
               </button>
               <div className="border-t border-gray-100" />
               <button
-                onClick={function() { setIsMenuVisible(false); setIsPasswordModalOpen(true); }}
+                onClick={function() { setIsMenuVisible(false); routerNav('/change-password'); }}
                 className="w-full flex items-center gap-3 px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 transition"
               >
                 <i className="fas fa-key text-gray-400 w-4" />
@@ -84,10 +83,7 @@ export default function AppHeader({ isSidebarCollapsed }) {
         </div>
       </div>
 
-      {/* Shows a popup if the user wants to change their password */}
-      {isPasswordModalOpen && (
-        <ChangePasswordModal onClose={function() { setIsPasswordModalOpen(false); }} />
-      )}
+      {/* The menu that pops open (Profile, Password, Logout) */}
 
       {isLogoutPromptOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center" style={{ background: 'rgba(0,0,0,0.35)' }}>

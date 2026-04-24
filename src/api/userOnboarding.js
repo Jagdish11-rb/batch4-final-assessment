@@ -37,9 +37,6 @@ export const updateFeaturesRequest = (payload) =>
 export const fetchBlacklist = (data) =>
   api.post('/black_list_db/fetch-details', { data })
 
-export const sendChangePasswordOtp = (oldPassword, newPassword) =>
-  api.post('/user-mgmt-internal/user/send-change-password-otp', { oldPassword, newPassword })
-
 export const fetchUserOnboardingReport = async (payload) => {
   const res = await apiSdk.post('/user_onboarding_report/fetch-user-list', encryptRequest(payload))
   const raw = res.data?.ResponseData || res.data?.responseData

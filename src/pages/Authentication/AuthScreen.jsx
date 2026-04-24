@@ -94,7 +94,7 @@ export default function AuthScreen() {
 
       <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px 48px', background: '#fff' }}>
         <div style={{ width: '100%', maxWidth: 420 }}>
-          
+
           {currentStep === 1 && (
             <form onSubmit={primaryAuthForm.handleSubmit(actions.handleStandardLogin)} style={layoutGrid}>
               <div style={{ marginBottom: 8 }}>
@@ -206,7 +206,7 @@ export default function AuthScreen() {
       {authSessionToken && (
         <div style={{ position: 'fixed', inset: 0, zIndex: 9999, background: 'rgba(0,0,0,0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <div style={{ background: '#fff', borderRadius: 4, padding: '10px', minWidth: 420, textAlign: 'center', boxShadow: '0 4px 24px rgba(0,0,0,0.2)' }}>
-            <h2 style={{ fontSize: 18, fontWeight: 500, color: '#49454f', marginBottom: 20, fontFamily: 'Roboto, Inter, sans-serif' }}>Congratulations!!! Login Successfull</h2>
+            <h2 style={{ fontSize: 18, fontWeight: 500, color: '#49454f', marginBottom: 20, fontFamily: 'Roboto, Inter, sans-serif' }}>Congratulations!!! Login Successful</h2>
             <div style={{ display: 'flex', gap: 60, justifyContent: 'center' }}>
               <button onClick={actions.acceptLogin} style={{ backgroundColor: '#8b0304', color: '#fff', border: 'none', borderRadius: 8, width: 80, height: 40, fontSize: 16, fontWeight: 700, cursor: 'pointer', fontFamily: 'Roboto, Inter, sans-serif' }}>OK</button>
               <button onClick={actions.rejectLogin} style={{ backgroundColor: 'transparent', color: '#8b0304', border: '1px solid #8b0304', borderRadius: 8, width: 80, height: 40, fontSize: 16, fontWeight: 700, cursor: 'pointer', fontFamily: 'Roboto, Inter, sans-serif' }}>NO</button>

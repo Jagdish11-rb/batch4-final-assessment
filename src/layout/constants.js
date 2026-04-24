@@ -34,7 +34,7 @@ export const NAVIGATION_DATA = [
 
 export const UI_STRINGS = {
   LOGOUT_CONFIRM_MSG: 'Are you sure want to Logout?',
-  LOGOUT_SUCCESS: 'Logout Successfull!!',
+  LOGOUT_SUCCESS: 'Logout Successful!!',
   YES_BTN: 'YES',
   NO_BTN: 'NO',
   TITLE_DASHBOARD: 'Dashboard',

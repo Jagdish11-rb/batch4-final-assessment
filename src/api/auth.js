@@ -84,3 +84,26 @@ export async function doLogout(accessToken) {
   })
   return data
 }
+
+export async function initiatePasswordChange(accessToken, oldPassword, newPassword) {
+  const { data } = await axios.post(
+    `${Base_Url_Service}/user/send-change-password-otp`,
+    { oldPassword, newPassword },
+    {
+      headers: { Authorization: accessToken, 'Content-Type': 'application/json' }
+    }
+  )
+  return data
+}
+
+export async function finalizePasswordChange(accessToken, payload) {
+  const body = encryptRequest(payload)
+  const { data } = await axios.post(
+    `${Base_Url}/user-mgmt/user/update-password-using-old-password`,
+    body,
+    {
+      headers: { Authorization: accessToken, 'Content-Type': 'application/json' }
+    }
+  )
+  return parseEncryptedResponse(data)
+}
